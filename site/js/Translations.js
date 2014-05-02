@@ -26,6 +26,7 @@ availableLanguages["ro"] = {names:[], translator:"Tudor Bărăscu"}; //tudorbara
 availableLanguages["ru"] = {names:[], translator:"Nikolay Zhigalov"}; //jederlacht1 (at) gmail (dot) com>
 availableLanguages["si"] = {names:[], translator:"Uroš Preložnik"};	//uros00 (at) gmail (dot) com
 availableLanguages["nl"] = {names:[], translator:"Carl Defevere"}; //carl (dot) defevere (at) gmail (dot) com>
+availableLanguages["pl"] = {names:[], translator:"Sławomir Bienias"}; // slawomir (dot) bienias (at) gmail (dot) com>
 
 //translations of languages
 // first language index is fixed, second variable
@@ -44,6 +45,7 @@ availableLanguages["en"].names["ro"] = "Engleză";
 availableLanguages["en"].names["ru"] = "Ангийский";
 availableLanguages["en"].names["si"] = "angleščina";
 availableLanguages["en"].names["nl"] = "Engels";
+availableLanguages["en"].names["pl"] = "Angielski";
 
 //German
 availableLanguages["de"].names["en"] = "German";
@@ -58,6 +60,7 @@ availableLanguages["de"].names["ro"] = "Germană";
 availableLanguages["de"].names["ru"] = "Немецкий";
 availableLanguages["de"].names["si"] = "nemščina";
 availableLanguages["de"].names["nl"] = "Duits";
+availableLanguages["de"].names["pl"] = "Niemiecki";
 
 //French
 availableLanguages["fr"].names["en"] = "French";
@@ -72,6 +75,7 @@ availableLanguages["fr"].names["ro"] = "Franceză";
 availableLanguages["fr"].names["ru"] = "Францкузский";
 availableLanguages["fr"].names["si"] = "francoščina";
 availableLanguages["fr"].names["nl"] = "Frans";
+availableLanguages["fr"].names["pl"] = "Francuski";
 
 //Italian
 availableLanguages["it"].names["en"] = "Italian";
@@ -86,6 +90,7 @@ availableLanguages["it"].names["ro"] = "Italiană";
 availableLanguages["it"].names["ru"] = "Итальянский";
 availableLanguages["it"].names["si"] = "italijanščina";
 availableLanguages["it"].names["nl"] = "Italiaans";
+availableLanguages["it"].names["pl"] = "Włoski";
 
 //Portuguese
 availableLanguages["pt_PT"].names["en"] = "Portuguese";
@@ -100,6 +105,7 @@ availableLanguages["pt_PT"].names["ro"] = "Portugheză";
 availableLanguages["pt_PT"].names["ru"] = "Португальский";
 availableLanguages["pt_PT"].names["si"] = "portugalščina";
 availableLanguages["pt_PT"].names["nl"] = "Portugees";
+availableLanguages["pt_PT"].names["pl"] = "Portugalski";
 
 //Ukrainian
 availableLanguages["uk"].names["en"] = "Ukrainian";
@@ -114,6 +120,7 @@ availableLanguages["uk"].names["ro"] = "Ucraineană";
 availableLanguages["uk"].names["ru"] = "Украинский";
 availableLanguages["uk"].names["si"] = "ukrajinščina";
 availableLanguages["uk"].names["nl"] = "Oekraiëns";
+availableLanguages["uk"].names["pl"] = "Ukraiński";
 
 //Hungarian
 availableLanguages["hu"].names["en"] = "Hungarian";
@@ -128,6 +135,7 @@ availableLanguages["hu"].names["ro"] = "Maghiară";
 availableLanguages["hu"].names["ru"] = "Венгерский";
 availableLanguages["hu"].names["si"] = "madžarščina";
 availableLanguages["hu"].names["nl"] = "Hongaars";
+availableLanguages["hu"].names["pl"] = "Węgierski";
 
 //Romanian
 availableLanguages["ro"].names["en"] = "Romanian";
@@ -142,6 +150,7 @@ availableLanguages["ro"].names["ro"] = "Română";
 availableLanguages["ro"].names["ru"] = "Румынский";
 availableLanguages["ro"].names["si"] = "romunščina";
 availableLanguages["ro"].names["nl"] = "Roemeens";
+availableLanguages["ro"].names["pl"] = "Rumuński";
 
 //Russian
 availableLanguages["ru"].names["en"] = "Russian";
@@ -156,6 +165,7 @@ availableLanguages["ru"].names["ro"] = "Rusă";
 availableLanguages["ru"].names["ru"] = "Русский";
 availableLanguages["ru"].names["si"] = "ruščina";
 availableLanguages["ru"].names["nl"] = "Russisch";
+availableLanguages["ru"].names["pl"] = "Rosyjski";
 
 //Slovenian
 availableLanguages["si"].names["en"] = "Slovenian";
@@ -170,6 +180,7 @@ availableLanguages["si"].names["ro"] = "sloven";
 availableLanguages["si"].names["ru"] = "словенский";
 availableLanguages["si"].names["si"] = "slovenščina";
 availableLanguages["si"].names["nl"] = "Sloveens";
+availableLanguages["si"].names["pl"] = "Słoweński";
 
 //Dutch; 
 availableLanguages["nl"].names["en"] = "Dutch";
@@ -183,6 +194,21 @@ availableLanguages["nl"].names["hu"] = "Holland";
 availableLanguages["nl"].names["ro"] = "Olandez";
 availableLanguages["nl"].names["si"] = "Nizozemski";
 availableLanguages["nl"].names["nl"] = "Nederlands";
+availableLanguages["nl"].names["pl"] = "Holenderski";
+
+//Polish;
+availableLanguages["pl"].names["en"] = "Polish";
+availableLanguages["pl"].names["de"] = "Polnisch";
+availableLanguages["pl"].names["es"] = "Polaco";
+availableLanguages["pl"].names["fr"] = "Polonaise";
+availableLanguages["pl"].names["it"] = "Polacca";
+availableLanguages["pl"].names["pt_PT"] = "Polonês";
+availableLanguages["pl"].names["uk"] = "Польська";
+availableLanguages["pl"].names["hu"] = "Nyelvű";
+availableLanguages["pl"].names["ro"] = "Poloneză";
+availableLanguages["pl"].names["si"] = "Poljski";
+availableLanguages["pl"].names["nl"] = "Poolse";
+availableLanguages["nl"].names["pl"] = "Polski";
 
 /***********************
 Status messages
@@ -202,6 +228,7 @@ mapAppLoadingString["ro"] = "Aplicația se încarcă...";
 mapAppLoadingString["ru"] = "Загрузка приложения...";
 mapAppLoadingString["si"] = "Nalaganje aplikacije...";
 mapAppLoadingString["nl"] = "Kaartapplicatie laden...";
+mapAppLoadingString["pl"] = "Ładowanie aplikacji mapy...";
 
 //indicating that map app was loaded and we are now loading the map
 var mapLoadingString = new Array();
@@ -217,6 +244,7 @@ mapLoadingString["ro"] = "Harta se încarcă...";
 mapLoadingString["ru"] = "Загрузка карты...";
 mapLoadingString["si"] = "Nalaganje karte...";
 mapLoadingString["nl"] = "Kaart laden...";
+mapLoadingString["pl"] = "Ładowanie mapy...";
 
 //mode string for navigation
 var modeNavigationString = new Array();
@@ -232,6 +260,7 @@ modeNavigationString["ro"] =  "Mod: navigare. Shift+desenează un dreptunghi; fo
 modeNavigationString["ru"] =  "Режим:навигация. Shift+выделение прямоугольника или колесо мыши для изменения масштаба.";
 modeNavigationString["si"] =  "Način: navigacija. Miška (lev gumb premik, kolešček povečava), Tipkovnica (smerne tipke in +-), SHIFT+pravokotnik za povečavo.";
 modeNavigationString["nl"] = "Mode: navigatie. Shift/rechthoek of muiswiel om te zoomen.";
+modeNavigationString["pl"] = "Tryb: nawigacja. Shift+zaznacz prostokątem lub użyj kółka myszy, aby zbliżyć.";
 
 //mode string for rectangle zoom
 var modeZoomRectangle = new Array();
@@ -247,6 +276,7 @@ modeZoomRectangle["ro"] = "Mod: zoom cu dreptunghi. Se desenează un dreptunghi 
 modeZoomRectangle["ru"] = "Режим: масштаб прямоугольником. Выделите прямоугольником регион чтобы увеличить его.";
 modeZoomRectangle["si"] = "Način: povečava z pravokotnikom. Nariši pravokotnik na območju željene povečave.";
 modeZoomRectangle["nl"] = "Mode: zoomen met rechthoek. Teken een rechthoek over de regio waar je wenst te zoomen.";
+modeZoomRectangle["pl"] = "Tryb: zbliż prostokątem. Narysuj prostokąt obszaru, który chcesz zbliżyć.";
 
 //mode string for attribute data detailed
 var modeObjectIdentificationString = new Array();
@@ -262,6 +292,7 @@ modeObjectIdentificationString["ro"] = "Mod: identificare obiect. Pentru aceasta
 modeObjectIdentificationString["ru"] = "Режим: идентификация объекта. Наведите указатель мыши на объект чтобы идентифицировать его. Кликните чтобы просмотреть атрибуты";
 modeObjectIdentificationString["si"] = "Način: poizvedba. Premakni miško na objekt zanimanja za identifikacijo ali klikni na objektu za prikaz opisnih podatkov.";
 modeObjectIdentificationString["nl"] = "Mode: object identificieren. Beweeg de muis over een object om het te identificieren, klik om de attribuutdata te bekijken.";
+modeObjectIdentificationString["pl"] = "Tryb: indentyfikacja obiektu. Najedź kursorem nad obiekt, aby go zidentyfikować; kliknij, aby zobaczyć wszystkie atrybuty obiektu.";
 
 //mode string for map tips (display main attribute with tooltips)
 var modeMapTipsString = new Array();
@@ -277,6 +308,7 @@ modeMapTipsString["ro"] = "Mod: Indicii hartă. Se afișează cand mouse-u este 
 modeMapTipsString["ru"] = "Режим: всплывающие подсказки. Показывать подсказки при наведении мыши.";
 modeMapTipsString["si"] = "Mode: MapTips. Display on mouse over with Tooltips.";	//FIXME
 modeMapTipsString["nl"] = "Mode: MapTips. Weergeven tooltips tijdens mouse-over.";
+modeMapTipsString["pl"] = "Tryb: Podpowiedzi. Wyświetlanie podpowiedzi na mapie po najechaniu kursorem.";
 
 //mode measure distance
 var modeMeasureDistanceString = new Array();
@@ -292,6 +324,7 @@ modeMeasureDistanceString["ro"] = "Mod: masoară distanța. Se face dublu click 
 modeMeasureDistanceString["ru"] = "Режим: измерение дистанции. Двойной клик чтобы завершить.";
 modeMeasureDistanceString["si"] = "Način: merjenje razdalje. Zaključi z dvoklikom.";
 modeMeasureDistanceString["nl"] = "Mode: afstand meten. Beëindig door te dubbelklikken.";
+modeMeasureDistanceString["pl"] = "Tryb: mierzenie odległości. Zakończ podwójnym kliknięciem.";
 
 //mode measure area
 var modeMeasureAreaString = new Array();
@@ -307,6 +340,7 @@ modeMeasureAreaString["ro"] = "Mod: masoară aria. Se face dublu click pentru a 
 modeMeasureAreaString["ru"] = "Режим: измерение площади. Двойной клик чтобы завершить.";
 modeMeasureAreaString["si"] = "Način: merjenje površine. Zaključi z dvoklikom.";
 modeMeasureAreaString["nl"] = "Mode: oppervlakte berekenen. Beëindig door te dubbelklikken.";
+modeMeasureAreaString["pl"] = "Tryb: mierzenie powierzchni. Zakończ podwójnym kliknięciem.";
 
 //mode printing
 var modePrintingString = new Array();
@@ -322,6 +356,7 @@ modePrintingString["ro"] =  "Mod: tipărire/print. Suprafața hărtii se poate m
 modePrintingString["ru"] =  "Режим:печать. Двигайте и поворачивайте прямоугольник чтобы выбрать участок карты. Для печати нажмите кнопку 'Печать'.";
 modePrintingString["si"] =  "Način: tiskanje. Premakni ali zasuči območje tiska. Nadaljuj z gumbom 'Tiskanje'.";
 modePrintingString["nl"] = "Mode: afdrukken. Verplaats of roteer de kaartextent. Druk af met de 'Afdrukken'-knop.";
+modePrintingString["pl"] = "Tryb: drukowanie. Przesuń lub obróć zakres mapy. Wydrukuj klikając przycisk 'Drukuj'.";
 
 //indicating is waiting for print
 var printLoadingString = new Array();
@@ -337,6 +372,7 @@ printLoadingString["ro"] = "Tipărire inițializată. Te rog așteaptă...";
 printLoadingString["ru"] = "Печать инициализирована . Пожалуйста, подождите...";
 printLoadingString["si"] = "Tiskanje se pripravlja. Prosimo počakajte...";
 printLoadingString["nl"] = "Afdrukken geinitialiseerd. Gelieve te wachten...";
+printLoadingString["pl"] = "Rozpoczynanie drukowania. Proszę czekać...";
 
 /***********************
 GUI stuff
